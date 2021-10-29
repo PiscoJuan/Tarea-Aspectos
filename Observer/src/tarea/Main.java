@@ -9,7 +9,6 @@ import javax.swing.*;
 public class Main extends JFrame{
 	
 	public static String colorActual="Rojo";
-	public static JLabel correccion= new JLabel();
 	
 	public static void main(String[] args) {
 		
@@ -55,44 +54,34 @@ public class Main extends JFrame{
 	    field.setBounds(270,200,95,30);
 	    JButton input=new JButton("Intro");
 	    input.setBounds(270,250,95,30);
-	    correccion.setBounds(240,300,300,30);
 	    f.add(indicacion);
 	    f.add(field);
 	    f.add(input);
-	    f.add(correccion);
 	    
 	    input.addActionListener(new ActionListener() {
 	        public void actionPerformed(ActionEvent e) {
-	        	correccion.setText(" ");
-	        	if(field.getText().equals(colorActual)) {
-	        		intro(f);
-	        	}else {
-	        		correccion.setText("ese no es el color correcto");
-	        	}
+	        	intro(f, colorActual, field);
 	        }});
 	}
 	
+	//Metodos de cada boton
 	public static void method1(JFrame f) {
 		f.getContentPane().setBackground(Color.CYAN);
 		colorActual="Cyan";
-		correccion.setText(" ");
 	}
 	
 	public static void method2(JFrame f) {
 		f.getContentPane().setBackground(Color.MAGENTA);
 		colorActual="Magenta";
-		correccion.setText(" ");
 	}
 	
 	public static void method3(JFrame f) {
 		f.getContentPane().setBackground(Color.YELLOW);
 		colorActual="Amarillo";
-		correccion.setText(" ");
 	}
 	
-	public static void intro(JFrame f) {
-		f.getContentPane().setBackground(Color.RED);
-		colorActual="Rojo";
-		correccion.setText(" ");
+	//Metodo Extra
+	public static void intro(JFrame f, String colorActual, JTextField field) {
+		
 	}
 }

@@ -10,7 +10,7 @@ public aspect Observer {
 			System.out.println("CYAN");
 		}else if(Name.equals("method2")){
 			System.out.println("MAGENTA");
-		}else {
+		}else if(Name.equals("method3")){
 			System.out.println("AMARILLO");
 		}
 	}
