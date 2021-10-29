@@ -2,7 +2,8 @@
 
 ## Bienvenidos al mejor repositorio 
 
-![pato](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fbarcagameryt%2Fstatus%2F1298767467741773824&psig=AOvVaw3Kp3Gpu2jlURDIe_qNbjBU&ust=1635562729569000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCh25XQ7vMCFQAAAAAdAAAAABAD)
+![pato](https://raw.githubusercontent.com/PiscoJuan/Tarea-Aspectos/main/captura.jpg)
+
 ## Integrantes
 
 - Luis Enrique Ramos Pozo
